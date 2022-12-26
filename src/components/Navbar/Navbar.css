@@ -1,0 +1,22 @@
+.nav_bar{
+    background-color: #010012;
+}
+.nav_bar .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_bar .main ul{
+    display: flex;
+}
+.nav_bar .main ul li{
+    margin: 0 5px;
+}
+.nav_bar .main ul li a{
+    color: #fff;
+    padding: 35px;
+    transition: .4s;
+}
+.nav_bar .main ul li a:hover{
+    color: rgb(251, 150, 0);
+}

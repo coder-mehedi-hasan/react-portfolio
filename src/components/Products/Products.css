@@ -1,0 +1,35 @@
+.Products{
+    padding: 50px 0;
+    background-color: #dfabab;
+}
+.Products .title h3{
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 500;
+    position: relative;
+}
+.Products .title h3::after{
+    content: '';
+    width: 50%;
+    height: 4px;
+    position: absolute;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .4s;
+}
+.Products .title:hover h3::after{
+    width: 100%;
+    transition: .4s;
+}
+.Products .main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
